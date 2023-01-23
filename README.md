@@ -3,12 +3,12 @@ A collection of my notes from Code Fellows
 
 ## Code 201
 ### Markdown Syntax Cheatsheet
-**Bold Text**
-*Italic*
-~~Strikethrough~~
-***All Bold and Italic***
-**This _one_ word is really important**
-<sub>Subscript, small text to ask questions more than likely</sub>
+**Bold Text**  
+*Italic*  
+~~Strikethrough~~  
+***All Bold and Italic***  
+**This _one_ word is really important**  
+<sub>Subscript, small text to ask questions more than likely</sub>  
 
 This text is not a quote
 > This text is a quote
