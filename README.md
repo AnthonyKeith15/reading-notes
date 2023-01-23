@@ -20,8 +20,22 @@ of code or command
 that I might need
 ```
 
+List of ingredients I need 
+- Butter
+* Milk
++ Eggs
 
+My favorite foods in order
+1. Pizza
+2. Tacos
+3. Sushi
 
+To do List
+-[x] Make to do list
+-[ ] Jazzercise
+-[ ] Dinner with me <sub>I can't cancel that *again*</sub>
+-[ ] Solve World Hunger **Tell _noone_**
+-[ ] Watch Video On [Version Control](https://www.youtube.com/watch?v=PWqS4NBhEY8)
 
 ## Code 301
 ## Code 401
