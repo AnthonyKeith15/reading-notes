@@ -35,7 +35,7 @@ To do List
 -[ ] Remember to add two spaces to create a new line  
 -[ ] Jazzercise  
 -[ ] Dinner with me <sub>I can't cancel that *again*</sub>  
--[ ] Solve World Hunger **Tell _noone_**  
+-[ ] Solve World Hunger (**Tell _noone_**)  
 -[ ] Watch Video On [Version Control](https://www.youtube.com/watch?v=PWqS4NBhEY8)
 
 ## Code 301
