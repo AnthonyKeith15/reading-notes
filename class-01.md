@@ -34,4 +34,10 @@ Data isnt sent in one big chunk, it is sent across thousands of smaller chunks. 
 
 ## JavaScript Basics
 
-##### A short poem about how HTTP sends data
+#### Questions and Answers
+
+Compose a short poem describing how HTTP sends data between computers
+> ```
+  hello world
+  ```
+
