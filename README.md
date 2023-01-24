@@ -2,6 +2,9 @@
 A collection of my notes from Code Fellows
 
 ## Code 201
+
+### 
+
 ### Markdown Syntax Cheatsheet
 **Bold Text**  
 *Italic*  
@@ -33,7 +36,7 @@ My favorite foods in order
 To do List  
 -[x] Make to do list  
 -[ ] Remember to add two spaces to create a new line  
--[ ] Watch Video On [Version Control](https://www.youtube.com/watch?v=PWqS4NBhEY8)
+-[ ] Watch Video On [Version Control](https://www.youtube.com/watch?v=PWqS4NBhEY8)  
 -[ ] Jazzercise  
 -[ ] Dinner with me <sub>I can't cancel that *again*</sub>  
 -[ ] Solve World Hunger (**Tell _no-one_**)  
