@@ -3,7 +3,9 @@ A collection of my notes from Code Fellows
 
 ## Code 201
 
-### 
+### Important websites and resources
+replit.com
+-Used for testing out new bits of code without having to go through the whole IDE process
 
 ### Markdown Syntax Cheatsheet
 **Bold Text**  

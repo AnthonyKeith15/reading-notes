@@ -37,7 +37,10 @@ Data isnt sent in one big chunk, it is sent across thousands of smaller chunks. 
 #### Questions and Answers
 
 Compose a short poem describing how HTTP sends data between computers
-> ```
-hello world
-  ```
+```
+I send a request
+I recieve the web data
+It comes in small bytes
+```
+
 
