@@ -102,3 +102,112 @@ Html sshould be representitive of the data that will be populated based on defau
 ```
 By adding the script element to the HTML
 ```
+
+## Read 02
+
+#### Why is it important to use semantic elements in our HTML?
+```
+We rely on our previous experience to tell us what the function of an object is.
+We also need to make sure we are using the correct elements, making sure the content has the correct label for screen readers and such.
+```
+
+#### How many levels of heading are there in HTML?
+```
+6
+```
+
+#### What are some uses for the *sub* and *sup* elements?
+```
+Sub = Subscript; This is used for smaller script such as chemical formulas
+Sup = Superscript which is used for exponents or writing out dates with the "th" at the end
+```
+
+#### When using the *abbr* element, what attribute must be added to provide the full expansion of the term?
+```
+title
+```
+
+#### What are the ways we can apply CSS to our HTML?
+```
+1. External - Linking to an outside stylesheet
+2. Internal - Writing the css at the top of our html file
+3. Inline - writing our css in the same line as HTML
+```
+
+#### Why should we avoid using inline styles?
+```
+It is the opposite of a best practice, it is the least efficient way to implement. It is also more difficult to read and understand
+```
+
+#### Review the block of code below and answer the following questions  
+1. What is representing the selector?
+The h2 is the selector
+2. Which components are the CSS declarations?
+The CSS declaration is the key value pair of a CSS property and its value
+3. Which components are considered properties?
+The properties are the first item in the key value pair. This specifies what css property is changing
+```
+h2 {
+  color: black;
+  padding: 5px;
+}
+```
+
+#### What data type is a sequence of text enclosed in single quote marks?
+```
+String
+```
+
+#### List 4 types of JS operators
+```
+1. Addition
+2. Subtraction
+3. Strict equality
+4. Does-not-equal
+```
+
+#### Describe a real world problem you could solve with a function
+```
+I would make a function to cook me bacon in the morning so when I wake up it's hot and ready for me.
+```
+
+#### An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+```
+Condition / True
+```
+
+#### What is the use of an Else If?
+```
+A way of providing more than one outcome for our if statement
+```
+
+#### List 3 different types of comparison operators
+```
+1. ===
+2. > and <
+3. <= and >=
+```
+
+#### What is the difference between the logical operator && and ||?
+```
+The && means *logical And* which means both expressions in it must be true or else it will return false
+The || means *logical Or* which means either expression may be true and it will return true.
+```
+
+## Read 03
+
+#### When should you use an unordered list in your HTML document?
+```
+The ul element is for grouping collections of items that don't have a need for numerical ordering. This could be a grocery list or a lineup at a concert.
+```
+
+#### How do you change the bullet style of unordered list items?
+```
+In CSS using the list-style-type property
+```
+
+#### When should you use an ordered list vs an unorder list in HTML documents?
+```
+Both OL and UL represent lists of items. Ol should be used when the order is meaningful, like a recipe or inststructions
+UL are when the order does not matter
+```
