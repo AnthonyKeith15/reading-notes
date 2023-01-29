@@ -212,3 +212,119 @@ Both OL and UL represent lists of items. Ol should be used when the order is mea
 UL are when the order does not matter
 ```
 
+#### Describe two ways you can change the numbers on list items provided by an ordered list.
+```
+1. Using the type attribute
+2. Using the reversed attribute
+```
+
+#### Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
+```
+In a story called the Box Model, The princess in the tower would be our content, the moat around the castle would be the border. The padding is the space between the castle and moat. Margin is the space outside of the moat to the next castle.
+```
+
+#### List and describe the four parts of an HTML elements box referred to by the box model.
+```
+Margin:
+Border:
+Padding:
+Size:
+```
+
+#### What data types can you store inside of an Array?
+```
+Strings, numbers, objects and even other arrays
+```
+
+#### Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+```
+Yes, you can access the values stored by people[0][0] if you need to access the array inside the array
+```
+
+#### List five shorthand operators for assignment in javascript and describe what they do.
+```
+1. x += f() | x = x + f() 
+2. x -= f() | x = x - f()
+3. x *= f() | x = x * f()
+4. x /= f() | x = x / f()
+5. x %= f() | x = x % f()
+```
+#### Read the code below and evaluate the last expression and explain what the result would be and why
+```
+10falsedog
+Due to the order of operations in math, and JavaScript will just put all the phrases together as one string
+```
+
+#### Describe a real world example of when a conditional statemnet should be used in a JS program
+```
+If i am writing a program for a bank, I dont want them to be able to withdraw more money than they have. So i would need a conditions that checks if the withdraw amount is less than the total balance in the account.
+```
+
+#### Give an example when a loop is useful
+```
+A loop is usefull when you want to repeat things a certain amount of times
+```
+
+## Read 04
+
+#### To create a basic link, we wrap text or other content inside what element?
+```
+Inside the a element and using the href attribute
+```
+
+#### The href attribute contains what information?
+```
+The target web address
+```
+#### What are some ways we can ensure links on our pages are accessible to all readers?
+```
+- Use clear link wording
+- Dont repeat the url as part of the link text
+- Dont say link in the link text
+- Keep link as short as possible
+```
+
+#### What is meant by “normal flow”?
+```
+Normal flow is the way that webpage elements lay themselves out if you havent changed their layout
+```
+
+#### What are a few differences between block-level and inline elements?
+```
+The size of inline elements is just the size of their content
+You cant set width or heigh on inline elements
+```
+
+#### ___ positioning is the default for every html element.
+```
+Static
+```
+
+#### Name a few advantages to using absolute positioning on an element
+```
+An absolute positioned element no longer exists in the flow of the document. Instead its got its own layer of the document.
+Because of absolute positioning we can place the element exactly where we want it inside the containing element
+```
+
+#### What is a key difference between fixed positioning and absolute positioning?
+```
+Fixed will stay in one spot regardless of how far down you scroll on the page.
+```
+
+#### Describe the difference between a function declaration and a function invocation.
+```
+A declaration saves the name of the function and what happens when the function gets called.
+The function invocation actually runs the line of code inside the function
+```
+
+#### What is the difference between a parameter and an argument?
+```
+A parameter is a value that gets passed into a function
+An argument is the object that contains the values of the passed in parameter
+```
+
+#### Pick 2 benefits to pair programming and reflect on how these benefits could help you on your coding journey.
+```
+1. Engaged collaboration: Being able to collaborate with my peers who have different strengths will help me become a more well rounded student. This will also help me get over my fear of asking for help.
+2. Social Skills: communication is a weak point for me. Being able to not only understand people better, but being able to be understood easier is a skill I know I will need later in life.
+```
