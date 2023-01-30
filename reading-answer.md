@@ -328,3 +328,5 @@ An argument is the object that contains the values of the passed in parameter
 1. Engaged collaboration: Being able to collaborate with my peers who have different strengths will help me become a more well rounded student. This will also help me get over my fear of asking for help.
 2. Social Skills: communication is a weak point for me. Being able to not only understand people better, but being able to be understood easier is a skill I know I will need later in life.
 ```
+
+#### 
