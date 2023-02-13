@@ -329,4 +329,160 @@ An argument is the object that contains the values of the passed in parameter
 2. Social Skills: communication is a weak point for me. Being able to not only understand people better, but being able to be understood easier is a skill I know I will need later in life.
 ```
 
-#### 
+## Read 05
+
+#### What is a real world use case for the alt attribute being used in a website?
+```
+Anyone using a screen reader will use the alt text to describe what is happening in the image since they cant see.
+```
+
+#### How can you improve accessibility of images in an HTML document?
+```
+By providing alt text and aria values. Also by wrapping the element in a relevant div will help users out alot.
+```
+
+#### Provide an example of when the figure element would be useful in an HTML document.
+```
+The figure tag contains self explanitory content, like diagrams, illustrations etc.
+```
+
+#### Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+```
+Gifs are similar to old school film, they only come in one resolution and it doesnt look as good as the digital counter part.
+```
+
+#### What image type would you use to display a screenshot on your website and why?
+```
+JPEG because it is the best choice and a fall back option. It has the most use cases. 
+```
+
+#### Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+```
+Foreground are the things that appear closer to you, while the background is behind your main focus
+```
+
+#### Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+```
+By using a limited color pallet and having a bright accent color. This will draw the users eyes to where we want to go.
+```
+
+#### What should you consider when choosing fonts for an HTML document?
+```
+Readablity, whether we need the serif or not. What the actual content on the page is.
+```
+
+#### What do font-size, font-weight, and font-style do to HTML text elements?
+```
+Font-size is how big the text itslef it.
+Font-weight is how thick the lines are in the text
+Font-style any extra saucy affects added to the text.
+```
+
+#### Describe two ways you could add spacing around the characters displayed in an h1 element.
+```
+margin/padding
+line-height
+```
+
+## Read 6
+
+#### How would you describe an object to a non-technical friend you grew up with?
+```
+An object is just a blueprint of code for another similar item we want to make.
+```
+
+#### What are some advantages to creating object literals?
+```
+Its useful for transfering a series of structured related data items
+```
+
+#### How do objects differ from arrays?
+```
+Arrays can be accessed by index number, objects can be accessed using dot notation
+```
+
+#### Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
+```
+when the key pair label has a space in it
+```
+
+#### Evaluate the code below. What does the term this refer to and what is the advantage to using this?
+```
+this referes to the new object that is being created.
+the advantage is we can access values of the object weve created using the dot notation
+```
+
+#### What is the dom?
+```
+The dom (document object model) is a rough tree of how elements on an html page are structed.
+```
+
+#### Briefly describe the relationship between the DOM and JavaScript.
+```
+You are able to use the DOM in order to save certain parts as a javascript variable and manipluate it
+```
+
+## Read 7
+
+#### Explain why we need domain modeling.
+```
+It is neccesary to understand the specific problem that is being worked on so everyone involved can understand it.
+```
+
+#### Why should tables not be used for page layouts?
+```
+Layouts using tables make the website harder to navigate for screen readers.
+```
+
+#### List and describe 3 different semantic HTML elements used in an HTML table.
+```
+Thead - the head row of the table, has labels and defines the data
+tbody - contains the data itself
+tfoot - the last row of teh table, used for summarizing information
+```
+
+#### What is a constructor and what are some advantages to using it?
+```
+Its a way of creating multiple objects that all have similar data. The advantage is that if we needed to add a new property, it can be done easier in the constructor than having to go find every object literal
+```
+
+#### How does the term this differ when used in an object literal versus when used in a constructor?
+```
+this in a literal refers to the object itself
+this in a constructor refers to the new instance of the object were creating
+```
+
+#### Explain prototypes and inheritance via an analogy from your previous work experience.
+```
+Prototypes are kindaa way of adding something on to a class as the last second and applying it to all the classes. In the military when theres a new standard thats the protype part. Inheritance is all the airman following the new standard.
+```
+
+## Read 8
+
+#### Flexbox is designed for one-dimensional content. Explain what this means.
+```
+Flexbox is used to group like elements together in order to organize them on the page easier.
+```
+
+#### Explain the difference between the main axis and cross axis. 
+```
+The main axis is the axis of the direction our content is going
+Cross axis is the perpendicular axis to that
+```
+
+#### How can using certain properties of flexbox negatively impact accessibility?
+```
+Using row reverse and column reverse only affect the page visually, for screen readers it will still be in a backwards order which makes things hard
+```
+
+#### What are some advantages of using flexbox over float?
+```
+You have way more control with flexbox of individual items over float.
+```
+
+#### How does this topic connect with your long term goals?
+```
+Any shorthand I can use will help save time when coding
+```
+
+## Read 9
