@@ -62,3 +62,55 @@ Reading Answers
 7. Re-rendering happens when react need to update the app with new data.
 
 8. You can store any kind of JS value , including objects. 
+
+### Read 03
+
+Reading Questions
+
+1. What does .map() return?
+2. If I want to loop through an array and display each value in JSX, how do I do that in React?
+3. Each list item needs a unique ____.
+4. What is the purpose of a key?
+
+5. What is the spread operator?
+6. List 4 things that the spread operator can do.
+7. Give an example of using the spread operator to combine two arrays.
+8. Give an example of using the spread operator to add a new item to an array.
+9. Give an example of using the spread operator to combine two objects into one.
+
+Reading Answers
+
+1. An entirely new array with transofrmed elements and the same amount of data
+
+2. using the .map or for each loop
+
+3. Key that uniquely identifies a list item among its siblings
+
+4. Keys help react identify which items have been changed or added, or removed.
+
+5. In Javascript spread syntax refers to the use of an ellipsis of three dots ... to expand an iterable object into the list of arguments.
+
+6. Copy an Array, Concatenating arrays, using math funcitons, adding an item to a list
+
+7. 
+```
+const myArray = [1, 2, 3];
+const otherArray = [4, 5, 6];
+const ourArray = [...myArray,...otherArray]
+```
+
+8. 
+```
+const myFood = ['pizza', 'steak', 'sushi'];
+const moreFood = ['hotdog', 'hamburger', ...myFood];
+```
+9. 
+```
+const objectOne = {hello: "🤪"}
+const objectTwo = {world: "🐻"}
+const objectThree = {...objectOne, ...objectTwo, laugh: "😂"}
+console.log(objectThree) // Object { hello: "🤪", world: "🐻", laugh: "😂" }
+const objectFour = {...objectOne, ...objectTwo, laugh: () => {console.log("😂".repeat(5))}}
+objectFour.laugh() // 😂😂😂😂😂
+```
+Source: https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab
