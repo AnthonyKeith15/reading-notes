@@ -23,3 +23,9 @@ i got this info from tutorialspoint.com/software_architecture_design/component_b
 2. Reusability, Replaceable, not context specific, extensible, encapsulated, independent
 
 3. Ease of deployment, reduced cost, ease of development, resuable, modification of technical complexity, reliablity, Independent, System Maintenance and evolution.
+
+4. Prop is short for properties
+
+5. Props are used for passing data from one component to another
+
+6. Uni-directional flow, it only flows from parent to child
