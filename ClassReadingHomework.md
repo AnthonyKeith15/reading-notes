@@ -114,3 +114,17 @@ const objectFour = {...objectOne, ...objectTwo, laugh: () => {console.log("😂"
 objectFour.laugh() // 😂😂😂😂😂
 ```
 Source: https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab
+
+### Read 04
+
+Reading Questions
+
+1. What is a ‘Controlled Component’?
+2. Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
+3. How do we target what the user is entering if we have an event handler on an input field?
+4. Why would we use a ternary operator?
+5. Rewrite the following statement using a ternary statement:
+
+Reading Answers:
+
+1. 
