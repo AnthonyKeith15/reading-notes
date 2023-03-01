@@ -127,4 +127,17 @@ Reading Questions
 
 Reading Answers:
 
-1. 
+1. Controlled Components are componentes that have access to the data the user entered in the form, while also handling the submit
+
+2. Since the value attribute is set on our form element, the displayed value will always be this.state.value, making the React state the source of truth. Since handleChange runs on every keystroke to update the React state, the displayed value will update as the user types.
+
+With a controlled component, the input’s value is always driven by the React state. While this means you have to type a bit more code, you can now pass the value to other UI elements too, or reset it from other event handlers. Source: https://reactjs.org/docs/forms.html
+
+3. Event.target.value
+
+4. We should use the ternary operator to shorten if statements, this allows us to specify which block of code to be executed if certain conditions are met.
+
+5. 
+```
+(x===y) ? console.log(true) : console.log(false)
+```
