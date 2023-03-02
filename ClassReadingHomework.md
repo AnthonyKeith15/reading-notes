@@ -141,3 +141,24 @@ With a controlled component, the input’s value is always driven by the React s
 ```
 (x===y) ? console.log(true) : console.log(false)
 ```
+
+### Read 05
+
+1. A component should do one thing, it it ends up growing it should be broken down into smaller components.
+
+2. Building a version without the use of state.
+
+3. Think about the state that we need.
+
+4. Is it passed in from a parent via props? If so, it probably isn’t state.
+Does it remain unchanged over time? If so, it probably isn’t state.
+Can you compute it based on any other state or props in your component? If so, it isn’t state.
+
+5. Depending on what other information from other components it needs
+
+CHANGE WEBSITE
+6. A function that accepts functions as parameters and/or returns a function
+
+7. returning m if m > n
+
+8. The map method transforms and array by applying a function to all of its elements and building a new array from the returned values
