@@ -1,4 +1,5 @@
 # Reading Notes
+
 A collection of my notes from codefellows
 
 ## Code 301 - Intermediate Software Development
@@ -18,7 +19,7 @@ Reading Answer
 
 i got this info from tutorialspoint.com/software_architecture_design/component_based_architecture.htm
 
-1. A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface. 
+1. A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
 
 2. Reusability, Replaceable, not context specific, extensible, encapsulated, independent
 
@@ -32,13 +33,12 @@ i got this info from tutorialspoint.com/software_architecture_design/component_b
 
 ### Read 02
 
-Reading Questions 
+Reading Questions
 
 1. Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
 2. What is the very first thing to happen in the lifecycle of React?
 3. Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates
 4. What does componentDidMount do?
-
 
 5. What types of things can you pass in the props?
 6. What is the big difference between props and state?
@@ -61,7 +61,7 @@ Reading Answers
 
 7. Re-rendering happens when react need to update the app with new data.
 
-8. You can store any kind of JS value , including objects. 
+8. You can store any kind of JS value , including objects.
 
 ### Read 03
 
@@ -92,19 +92,23 @@ Reading Answers
 
 6. Copy an Array, Concatenating arrays, using math funcitons, adding an item to a list
 
-7. 
+7.
+
 ```
 const myArray = [1, 2, 3];
 const otherArray = [4, 5, 6];
 const ourArray = [...myArray,...otherArray]
 ```
 
-8. 
+8.
+
 ```
 const myFood = ['pizza', 'steak', 'sushi'];
 const moreFood = ['hotdog', 'hamburger', ...myFood];
 ```
-9. 
+
+9.
+
 ```
 const objectOne = {hello: "🤪"}
 const objectTwo = {world: "🐻"}
@@ -113,7 +117,8 @@ console.log(objectThree) // Object { hello: "🤪", world: "🐻", laugh: "😂"
 const objectFour = {...objectOne, ...objectTwo, laugh: () => {console.log("😂".repeat(5))}}
 objectFour.laugh() // 😂😂😂😂😂
 ```
-Source: https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab
+
+Source: <https://medium.com/coding-at-dawn/how-to-use-the-spread-operator-in-javascript-b9e4a8b06fab>
 
 ### Read 04
 
@@ -131,13 +136,14 @@ Reading Answers:
 
 2. Since the value attribute is set on our form element, the displayed value will always be this.state.value, making the React state the source of truth. Since handleChange runs on every keystroke to update the React state, the displayed value will update as the user types.
 
-With a controlled component, the input’s value is always driven by the React state. While this means you have to type a bit more code, you can now pass the value to other UI elements too, or reset it from other event handlers. Source: https://reactjs.org/docs/forms.html
+With a controlled component, the input’s value is always driven by the React state. While this means you have to type a bit more code, you can now pass the value to other UI elements too, or reset it from other event handlers. Source: <https://reactjs.org/docs/forms.html>
 
 3. Event.target.value
 
 4. We should use the ternary operator to shorten if statements, this allows us to specify which block of code to be executed if certain conditions are met.
 
-5. 
+5.
+
 ```
 (x===y) ? console.log(true) : console.log(false)
 ```
@@ -162,3 +168,36 @@ CHANGE WEBSITE
 7. returning m if m > n
 
 8. The map method transforms and array by applying a function to all of its elements and building a new array from the returned values
+
+### Read 06
+
+1. Node.js is a JavaScript runetime built on Chromes v8 Js engine
+
+2. Tis an open source Js engine that runs on google chrome as well as chrome adjacent browers.
+
+3. Node.js is a program we can use to execute JS on our computers
+
+4. NPM is a package manager that comes bundled with node
+
+5. v19.6.1
+
+6. 9.4.0
+
+7. npm install -g jshint
+
+8. Installing and running various build tools
+
+9. 
+```
+
+Efficiency
+Engaged Collaboration
+Learning from fellow students
+Social Skills
+Job interview readiness
+Work environment readiness
+
+```
+10. Social skills is the most important one. In the real world Im going to be working with other devs so knowing how to socialize is important.
+
+11. One person handles all the actual coding, and nav of the files. The other person acts as a guide, in order to keep the big picture in mind as well as look up documentation. 
