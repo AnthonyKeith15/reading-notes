@@ -201,3 +201,19 @@ Work environment readiness
 10. Social skills is the most important one. In the real world Im going to be working with other devs so knowing how to socialize is important.
 
 11. One person handles all the actual coding, and nav of the files. The other person acts as a guide, in order to keep the big picture in mind as well as look up documentation. 
+
+### Read 07
+
+1. Roy Fielding helped write the first web servers, that sent documents across the internet. After that he did a ton of research explaining why the web works the way it does.
+
+2. Theyre only hosted on our local server.
+
+3. Its all about applying verbs to nouns. For instance when you go to a web page, the browser does an HTTP GET on the URL you typed in and back comes a webpage
+
+4. They mostly just get stuff
+
+5. Its when one system needs to add something to another system
+
+6. If the system wants to replace something in another system.
+
+7. Patch is kind of a partial update to the other systems
