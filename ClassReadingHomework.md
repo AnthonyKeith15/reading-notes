@@ -217,3 +217,99 @@ Work environment readiness
 6. If the system wants to replace something in another system.
 
 7. Patch is kind of a partial update to the other systems
+
+### Read 08
+
+Representational State Transer
+
+
+REST API are designed around resources, which are any kind of data, object and service that can be accessed by client
+
+An identifier or a resource is a unique string of chars used to identify a specific resource. Example mysite.com/shopfield?9014 the stuff after the ? is the Identifier
+
+GET POST PUT DELETE PATCH OPTIONS
+
+URIs should be based on the things that they label EX: mysite.com/shop 
+
+a chatty API makes multiple requests to do a single function. This is a bad thing because if you have slow internet it would take a long time to process these.
+
+What status code does a successful GET request return?
+200 code
+
+What status code does an unsuccessful GET request return?
+400 ish code depending on the specific problem 
+
+What status code does a successful POST request return?
+200 Code
+
+What status code does a successful DELETE request return?
+204 ?
+
+### Read 09
+
+
+1. Functional Programming is a programming paradigm - a style of building the structure and elements of computer programs. This treats computation as the evaluation of mathematical functions and avoids changing state and mutable data.
+
+2. Its a pure function if it returns the same result if given the same arguments. It also does not cause any observable side effects
+
+3. Were just accessing parameters passeed to the function, no external object
+
+4. its state cannot change after its created.
+
+5. When a pure function is passed with immutable data
+
+6. A block of code that has a certain logical functionality. It essentially is just another js file
+
+7. Require is on the global object. Its used to return the module.export from our module
+
+8. require('./path-to-file')
+
+9. module.export(exportedThing)
+
+### Read 10
+
+1. Its when a function is invoked (or called)
+
+2. Since the stack is single function executions. Its done one at a time from top to bottom, meaning the stack is synchronous
+
+3. Last in First out
+
+Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
+4. 
+```
+function firstThing(){
+  /* Stuff happens */
+}
+
+function secondThing(){
+  firstThing();
+  console.log('Im the second functon')
+}
+
+secondThing();
+
+```
+What causes a Stack Overflow?
+5. When I get stuck on a bug it causes me to go to Stack Overflow lol.
+It occurs when there is a recusive function without and exit point. The hosting environment has a max stack call before throwing an stack error
+
+
+JavaScript error messages
+
+6. When you try to use a variable that is not yet declared
+
+7. It occurs when you have something that cannot be parsed in terms of syntax
+
+8. Try to manipulate an object with some kind of length and give it an invalid length and youll get it.
+
+
+9. Its when you try to access something undefined or not the correct data type.
+
+
+10. Breakpoints are a conditional statement which will make your program stop at that point only if the condition is met.
+
+
+11. The debugger keyword stops the execution of JavaScript, and calls (if available) the debugging function. This has the same function as setting a breakpoint in the debugger. If no debugging is available, the debugger statement has no effect. 
+
+Source: https://www.w3schools.com/js/js_debugging.asp#:~:text=The%20debugger%20keyword%20stops%20the,debugger%20statement%20has%20no%20effect.
+
