@@ -313,3 +313,61 @@ JavaScript error messages
 
 Source: https://www.w3schools.com/js/js_debugging.asp#:~:text=The%20debugger%20keyword%20stops%20the,debugger%20statement%20has%20no%20effect.
 
+### READ 11
+
+DIFFERENCES : SQL is a relational database
+SQL databases are table based
+SQL databases have a predefined schema
+SQL databases use SQL
+SQL databases are vertically scalable 
+
+1.  SQL databases are good fit for the complex query intensive environment
+2. Tax info
+3. Non complex query
+4. Cat info
+5. NoSQL database fits better for the hierarchical data storage as it follows the key-value pair way of storing data
+6. SQL databases are vertically scalable.
+
+7. Structured Query Language
+8. A relational database is a type of database that organizes data into one or more tables. which also has rows and columns to find things
+9. a structured data model where data is organized into tables with predefined columns and data types.
+10. a relational database is a collection of database objects, such as tables, indexes, and constraints, that define the structure of the database. 
+11. database that stores and retrieves data without using a traditional relational database management system. Key value pairs
+12. MongoDB is a document-oriented NoSQL database, meaning it stores data in JSON-like documents rather than tables with rows and columns. 
+13. Mongo is more flexable because its not structred
+14. Not as consistent and relaiable
+
+
+### READ 12
+
+100 = server got the request and is processing it
+200 = SUCESS
+300 = Resources got moved to somewhere else
+400 = Errors that are the clients fault
+500 = Errors that are the servers fault
+
+202 = Your request has been accepted and still processing
+308 = Lets you know that the resource moved to a new location.
+
+If an updated didnt return data, it would a 204
+
+If a resource doesnt exist its a 410
+
+Forbidden is a 403. Not enough permissions.
+
+1. We keep sensitive info in our env file so that it doesnt get added to our version control
+2. Middleware is a function that sits between the client and the server in a web application.
+3. This function is used to parse requests that are in JSON format
+4. the /:id syntax specifies which parameter that can be used to capture a value from URL
+5. PUT replaces an entire resource, PATCH updates part of it
+6. By setting the default property in the field definition
+7. Internal Server Error
+8. 200 has successfully processed the request and is returning the resource. 201 means that the request is succesful and a new resource was created.
+
+### READ 13
+
+1. PUT
+2. GET, PUT, DELETE, PATCH
+
+3. CRUD is a set of operations mostly used by databases. REST uses CRUD operations to manage data in a uniform way.
+4. Figure out what data I want. Find my end point. Choose the appropriate method that i need to use. Connect the front end to back and test that Im getting data. Test the api to make sure that I am getting the response Im expecting
