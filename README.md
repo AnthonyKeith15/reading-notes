@@ -5,3 +5,7 @@ As self-driving cars become more prevalent, difficult ethical decisions loom on 
 # Ethics in the work place
 
 The narrator, who began coding at a young age, worked at an interactive marketing firm in Toronto, where he was tasked with creating a website for a drug aimed at teenage girls. A key feature of the site was a quiz that recommended the drug based on users' responses, a tactic that, in hindsight, raised significant ethical concerns. At the time, the narrator viewed it as a marketing strategy rather than a potential ethical dilemma. However, a tragic incident where a young girl committed suicide after taking the drug he had built the website for, starkly highlighted the ethical considerations that coders need to grapple with, particularly when their work could potentially influence vulnerable individuals.
+
+# OSS Contributions
+
+Contributing to open-source software (OSS) provides early experience and skill development for young coders, which is often a requirement for internships and entry-level positions. It exposes developers to real-world coding practices and accelerates their career progress. This experience also garners community and peer recognition, leading to potential job offers and invitations to attend industry events. It provides a tangible proof of skills that can enhance job prospects significantly, as many employers inspect Github accounts of prospective candidates. Moreover, OSS contribution can lead to other opportunities like consulting and freelance work, and it helps improve software from both a user and business perspective.
