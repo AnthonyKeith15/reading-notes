@@ -1,50 +1,7 @@
-# Reading Notes
-A collection of my notes from Code Fellows
+# Ethics In Tech
 
-## Code 201
+As self-driving cars become more prevalent, difficult ethical decisions loom on the horizon, particularly regarding potential no-win crash scenarios. Attorney Van Lindberg warns that despite autonomous vehicles saving many lives, there will inevitably be accidents involving unpredictable circumstances like falling trees or sudden pedestrian appearances. These ethical questions are currently largely unaddressed in public discourse and legislation, despite the increase in the number of autonomous vehicles on the roads. A legislation is moving through Congress potentially leading to tens of thousands of self-driving cars on the roads, without addressing these concerns. The U.S. Department of Transportation has only lightly touched upon the ethical considerations, acknowledging the importance but also noting that no consensus has been reached.
 
-### Important websites and resources
-replit.com
--Used for testing out new bits of code without having to go through the whole IDE process
+# Ethics in the work place
 
-### Markdown Syntax Cheatsheet
-**Bold Text**  
-*Italic*  
-~~Strikethrough~~  
-***All Bold and Italic***  
-**This _one_ word is really important**  
-<sub>Subscript, small text to ask questions more than likely</sub>  
-
-This text is not a quote
-> This text is a quote
-`code or a command`
-
-```
-A big block
-of code or command
-that I might need
-```
-
-List of ingredients I need 
-- Butter
-* Milk
-+ Eggs
-
-My favorite foods in order
-1. Pizza
-2. Tacos
-3. Sushi
-
-To do List  
--[x] Make to do list  
--[ ] Remember to add two spaces to create a new line  
--[ ] Watch Video On [Version Control](https://www.youtube.com/watch?v=PWqS4NBhEY8)  
--[ ] Jazzercise  
--[ ] Dinner with me <sub>I can't cancel that *again*</sub>  
--[ ] Solve World Hunger (**Tell _no-one_**)  
-
-
-## Code 301
-## Code 401
-
-
+The narrator, who began coding at a young age, worked at an interactive marketing firm in Toronto, where he was tasked with creating a website for a drug aimed at teenage girls. A key feature of the site was a quiz that recommended the drug based on users' responses, a tactic that, in hindsight, raised significant ethical concerns. At the time, the narrator viewed it as a marketing strategy rather than a potential ethical dilemma. However, a tragic incident where a young girl committed suicide after taking the drug he had built the website for, starkly highlighted the ethical considerations that coders need to grapple with, particularly when their work could potentially influence vulnerable individuals.
